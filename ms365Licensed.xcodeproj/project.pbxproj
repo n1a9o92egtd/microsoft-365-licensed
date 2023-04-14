@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063F35D029E5B1280003A5D4 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 063F35CE29E5B1280003A5D4 /* fishhook.h */; };
+		063F35D129E5B1280003A5D4 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 063F35CF29E5B1280003A5D4 /* fishhook.c */; };
+		06E2071D29E50FF000924C04 /* ms365Licensed.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E2071C29E50FF000924C04 /* ms365Licensed.h */; };
+		06E2071F29E50FF000924C04 /* ms365Licensed.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E2071E29E50FF000924C04 /* ms365Licensed.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		063F35CE29E5B1280003A5D4 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		063F35CF29E5B1280003A5D4 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		06E2071929E50FF000924C04 /* ms365Licensed.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ms365Licensed.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E2071C29E50FF000924C04 /* ms365Licensed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ms365Licensed.h; sourceTree = "<group>"; };
+		06E2071E29E50FF000924C04 /* ms365Licensed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ms365Licensed.m; sourceTree = "<group>"; };
+		06E2072A29E53E4200924C04 /* mso30.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mso30.framework; path = ms365Licensed/mso30.framework; sourceTree = "<group>"; };
+		06E2072C29E5405100924C04 /* mso30.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mso30.framework; path = "../../../../Applications/Microsoft Excel.app/Contents/Frameworks/mso30.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E2071729E50FF000924C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E2071029E50FF000924C04 = {
+			isa = PBXGroup;
+			children = (
+				06E2071B29E50FF000924C04 /* ms365Licensed */,
+				06E2071A29E50FF000924C04 /* Products */,
+				06E2072929E53E4200924C04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06E2071A29E50FF000924C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E2071929E50FF000924C04 /* ms365Licensed.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E2071B29E50FF000924C04 /* ms365Licensed */ = {
+			isa = PBXGroup;
+			children = (
+				063F35CF29E5B1280003A5D4 /* fishhook.c */,
+				063F35CE29E5B1280003A5D4 /* fishhook.h */,
+				06E2071C29E50FF000924C04 /* ms365Licensed.h */,
+				06E2071E29E50FF000924C04 /* ms365Licensed.m */,
+			);
+			path = ms365Licensed;
+			sourceTree = "<group>";
+		};
+		06E2072929E53E4200924C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E2072C29E5405100924C04 /* mso30.framework */,
+				06E2072A29E53E4200924C04 /* mso30.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06E2071529E50FF000924C04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E2071D29E50FF000924C04 /* ms365Licensed.h in Headers */,
+				063F35D029E5B1280003A5D4 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06E2071829E50FF000924C04 /* ms365Licensed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E2072229E50FF000924C04 /* Build configuration list for PBXNativeTarget "ms365Licensed" */;
+			buildPhases = (
+				06E2071529E50FF000924C04 /* Headers */,
+				06E2071629E50FF000924C04 /* Sources */,
+				06E2071729E50FF000924C04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ms365Licensed;
+			productName = ms365Licensed;
+			productReference = 06E2071929E50FF000924C04 /* ms365Licensed.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E2071129E50FF000924C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06E2071829E50FF000924C04 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 06E2071429E50FF000924C04 /* Build configuration list for PBXProject "ms365Licensed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E2071029E50FF000924C04;
+			productRefGroup = 06E2071A29E50FF000924C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E2071829E50FF000924C04 /* ms365Licensed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E2071629E50FF000924C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063F35D129E5B1280003A5D4 /* fishhook.c in Sources */,
+				06E2071F29E50FF000924C04 /* ms365Licensed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06E2072029E50FF000924C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		06E2072129E50FF000924C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		06E2072329E50FF000924C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = 98D3D65LRQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ms365Licensed",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		06E2072429E50FF000924C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = 98D3D65LRQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ms365Licensed",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E2071429E50FF000924C04 /* Build configuration list for PBXProject "ms365Licensed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E2072029E50FF000924C04 /* Debug */,
+				06E2072129E50FF000924C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E2072229E50FF000924C04 /* Build configuration list for PBXNativeTarget "ms365Licensed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E2072329E50FF000924C04 /* Debug */,
+				06E2072429E50FF000924C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E2071129E50FF000924C04 /* Project object */;
+}
